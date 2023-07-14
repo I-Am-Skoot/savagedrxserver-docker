@@ -31,6 +31,8 @@ services:
 
   savage:
     image:  iamskoot/savagedrxserver:latest
+    stdin_open: true 
+    tty: true
     ports:
       - "11235:11235"
       - "11235:11235/udp"
