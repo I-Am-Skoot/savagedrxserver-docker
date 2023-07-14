@@ -3,6 +3,7 @@ Savage DRX Server for Docker
 Dockerhub IMAGE:  [iamskoot/savagedrxserver](https://hub.docker.com/r/iamskoot/savagedrxserver)
 
 You can get the client from  [Community-server.info](https://community-server.info/client/drx)
+You will need to download the Savage DRX game client for Ubuntu and put in the files folder to properly build this docker image.
 
 Optional Enviornment Variables
 
