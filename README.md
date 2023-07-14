@@ -17,7 +17,7 @@ http://fa.ubergeekinc.com/Maps/
 
 Quick launch
 ```
-docker run -dti -p 11235:11235 -p 11235:11235/udp --name SavageDRXServer savagedrxserver
+docker run -dti -p 11235:11235 -p 11235:11235/udp --name SavageDRXServer iamskoot/savagedrxserver
 ```
 
 Docker-compose YAML
