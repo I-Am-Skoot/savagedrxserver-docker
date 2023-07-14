@@ -10,9 +10,9 @@ ADMINPASS   Password for remote admin access
 VIPPASS     Password for VIP slot  
 MOTD1       Message of the Day line  
 NAME        Server Name  
-MAXCLIENT   Maximum clients 
-PASSWORD    Server Join Password 
-PORT        Server Port 
+MAXCLIENT   Maximum clients  
+PASSWORD    Server Join Password  
+PORT        Server Port   
 
 Maps Used
 http://fa.ubergeekinc.com/Maps/
