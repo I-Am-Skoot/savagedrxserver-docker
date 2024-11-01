@@ -6,6 +6,7 @@
 [[ ! -z "$MAXCLIENT" ]] && sed -i "s/XXMAXCLIENTXX/$MAXCLIENT/g" /var/games/savage-drx/game/startup.cfg || sed -i "s/XXMAXCLIENTXX/64/g" /var/games/savage-drx/game/startup.cfg
 [[ ! -z "$PASSWORD" ]] && sed -i "s/XXPASSWORDXX/$PASSWORD/g" /var/games/savage-drx/game/startup.cfg || sed -i "s/XXPASSWORDXX//g" /var/games/savage-drx/game/startup.cfg
 [[ ! -z "$PORT" ]] && sed -i "s/XXPORTXX/$PORT/g" /var/games/savage-drx/game/startup.cfg || sed -i "s/XXPORTXX/11235/g" /var/games/savage-drx/game/startup.cfg
+[[ ! -z "$MAPURL" ]] && sed -i "s/XXMAPSXX/$MAPURL/g" /var/games/savage-drx/game/startup.cfg || sed -i "s/XXMAPSXX//g" /var/games/savage-drx/game/startup.cfg
 
 cd /var/games/savage-drx
 ./silverback.bin dedicated_server 1
