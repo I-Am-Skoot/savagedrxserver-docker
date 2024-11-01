@@ -11,3 +11,4 @@ services:
       VIPPASS: "VIP"                                           #Default VIP Password
       MOTD1: "Welcome to the Docker Hosted Dedicated Server"
       NAME: "Docker Savage Server"
+      MAPURL: "URL to your own server hosting map files"
